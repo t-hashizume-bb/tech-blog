@@ -1,0 +1,46 @@
+.article-title__skeleton {
+    width: 100%;
+    height: 2rem;
+    background-color: #f0f0f0;
+}
+
+.article-category__skeleton {
+    display: inline-block;
+    width: 4em;
+    height: 0.9rem;
+    background-color: #f0f0f0;
+}
+
+.article-date__text__skeleton {
+    display: inline-block;
+    width: 4em;
+    height: 0.9rem;
+    background-color: #f0f0f0;
+}
+
+
+
+.article-toc-title__skeleton {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #f0f0f0;
+}
+
+.article-toc-list-item__link__skeleton {
+    width: 100%;
+    height: 1rem;
+    background-color: #f0f0f0;
+}
+
+.article-content__title__skeleton {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #f0f0f0;
+}
+
+.article-content__text__skeleton {
+    width: 100%;
+    height: 1rem;
+    background-color: #f0f0f0;
+}
+

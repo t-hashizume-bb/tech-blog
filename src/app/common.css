@@ -1,0 +1,16 @@
+.inner {
+    max-width: calc(1200px + 6em);
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+/* スムーススクロール */
+html {
+    scroll-behavior: smooth;
+}

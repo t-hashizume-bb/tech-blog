@@ -1,0 +1,109 @@
+.sidebar {
+    /* position: sticky; */
+    height: fit-content;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 #f1f5f9;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+
+    &--toc {
+        position: sticky;
+        top: 8rem;
+    }
+}
+
+.sidebar-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+}
+
+.sidebar-nav {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: .5rem;
+        position: relative;
+    }
+    
+    a {
+        display: block;
+        padding: 0.5rem 0;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: all 0.2s;
+        padding-left: 1.5rem;
+    
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 0.6rem;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            position: absolute;
+            background-color: #000;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            transform-origin: center;
+            transition: all 0.2s;
+        }
+    }
+
+    a:hover {
+        color: #2563eb;
+        background-color: #f8fafc;
+        border-radius: 4px;
+        /* padding-left: 0.5rem; */
+
+        &:before {
+            background-color: #2563eb;
+            scale: 1.2;
+        }
+    }
+
+    .level-1 {
+        font-weight: 600;
+
+        &:before {
+            width: .8rem;
+        }
+    }
+
+    .level-2 {
+        font-weight: 500;
+
+        &:before {
+            width: .7rem;
+        }
+    }
+
+    .level-3 {
+        font-weight: 400;
+
+        &:before {
+            width: .6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar__wrapper {
+        position: static;
+        width: 100%;
+    }
+}

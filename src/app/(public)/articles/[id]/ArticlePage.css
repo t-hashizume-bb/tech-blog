@@ -1,0 +1,5 @@
+.article-container {
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,26 @@
+.post-card-img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #f0f0f0;
+}
+
+.post-card-cat__skeleton {
+    display: inline-block;
+    width: 4em;
+    height: 0.9rem;
+}
+
+.post-card-title__skeleton {
+    display: inline-block;
+    width: 100%;
+    height: 1.1rem;
+    background-color: #f0f0f0;
+}
+
+.post-card-date__skeleton {
+    display: inline-block;
+    width: 8em;
+    height: 0.9rem;
+    background-color: #f0f0f0;
+}

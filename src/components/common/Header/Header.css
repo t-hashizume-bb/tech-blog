@@ -1,0 +1,27 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-inner { 
+    margin: 0 2rem;
+    padding: 2rem 0;
+    border-bottom: 2px solid #eee;
+
+    @media (max-width: 768px) {
+        margin: 0 1.5rem;
+    }
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main {
+    margin-top: calc(6rem + 6rem);
+}
